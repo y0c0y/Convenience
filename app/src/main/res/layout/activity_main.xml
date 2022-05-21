@@ -31,8 +31,11 @@
             android:layout_marginLeft="75dp"
             android:layout_marginTop="155dp"
             android:text="편의점 위치"
+            android:onClick="onMapsClicked"
             android:textSize="20dp"
             app:backgroundTint="@color/purple_200" />
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
